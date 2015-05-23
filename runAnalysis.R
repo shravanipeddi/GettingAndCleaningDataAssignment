@@ -73,5 +73,5 @@ aggregatedData <- aggrData[,2:ncol(aggrData)]
 
 head(aggregatedData)
 
-write.table(tidyDataSet,"tidy.txt")
-write.table(aggregatedData,"meanTidyDataset.txt")
+write.table(tidyDataSet,"tidy.txt",row.names=FALSE)
+write.table(aggregatedData,"meanTidyDataset.txt",row.names=FALSE)
